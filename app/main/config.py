@@ -29,7 +29,7 @@ class ProductionConfig(Config):
     # SQLALCHEMY_DATABASE_URI = postgres_local_base
 
 
-config_by_name = dict(
+set_config = dict(
     dev=DevelopmentConfig,
     test=TestingConfig,
     prod=ProductionConfig
